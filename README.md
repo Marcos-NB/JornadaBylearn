@@ -1,2 +1,2 @@
 # JornadaBylearn
-dois projetos, identificador de pessoas e calculadora de médias
+identificador de pessoas e calculadora de médias
