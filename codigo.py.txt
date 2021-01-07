@@ -1,0 +1,14 @@
+nome = 'marcos'
+sobrenome = 'henrique'
+idade = 23
+
+if nome == 'marcos':
+  if sobrenome == 'henrique':
+    if idade == 23:
+      print('obviamente é o glorioso marcos henrique')
+    else:
+      print('não é o marcos que eu conheço')
+  else:
+    print('infelizmente é outro marcos')
+else:
+  print('certamente não é o glorioso marcos')
