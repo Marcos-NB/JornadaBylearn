@@ -1,2 +1,2 @@
 # JornadaBylearn
-Programa para identificar pessoas
+dois projetos, identificador de pessoas e calculadora de medias
