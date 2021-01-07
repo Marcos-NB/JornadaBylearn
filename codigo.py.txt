@@ -1,14 +1,16 @@
-nome = 'marcos'
-sobrenome = 'henrique'
-idade = 23
+def calcular_media(notas):
+  quantidade = len(notas)
+  soma = sum(notas)
+  media = soma / quantidade
+  print('O aluno  tirou', media)
+  return media
 
-if nome == 'marcos':
-  if sobrenome == 'henrique':
-    if idade == 23:
-      print('obviamente é o glorioso marcos henrique')
-    else:
-      print('não é o marcos que eu conheço')
+def verificar_aprovacao(media):
+  if media >= 6:
+    print('Aluno Aprovado :)')
   else:
-    print('infelizmente é outro marcos')
-else:
-  print('certamente não é o glorioso marcos')
+    print('Aluno Reprovado :(')
+
+bob = [10, 9, 7, 9]
+media = calcular_media(bob)
+verificar_aprovacao(media)
